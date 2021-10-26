@@ -50,6 +50,7 @@ public class PlayerController : MonoBehaviour
         if (count >= 6)
         {
             winText.text = "YOU WIN!!!";
+            //Camera.main.GetComponent<UIManager>().Win();
         }
     }
 }
